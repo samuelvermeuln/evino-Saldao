@@ -6,6 +6,8 @@ import { Dropdown } from "primereact/dropdown";
 import { Rating } from "primereact/rating";
 import { ProductService } from './../../service/ProductService';
 
+import img from "../../public/1b1f52ec63.jpg";
+
 export default function TableCards () {
   const [products, setProducts] = useState(null);
   const [layout, setLayout] = useState("grid");
@@ -42,7 +44,7 @@ export default function TableCards () {
       <div className="p-col-12">
         <div className="product-list-item">
           <img
-            src={`images/product/${data.image}`}
+            src={"1b1f52ec63.jpg"}
             onError={(e) =>
               (e.target.src =
                 "https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png")
@@ -92,7 +94,7 @@ export default function TableCards () {
           </div>
           <div className="product-grid-item-content">
             <img
-              src={`images/product/${data.image}`}
+              src={'1b1f52ec63.jpg'}
               onError={(e) =>
                 (e.target.src =
                   "https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png")
