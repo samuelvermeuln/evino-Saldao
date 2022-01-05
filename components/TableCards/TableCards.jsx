@@ -72,7 +72,8 @@ export default function TableCards () {
         </div>
       </div>
     );
-  };
+    };
+    
 
   const renderGridItem = (data) => {
     return (
