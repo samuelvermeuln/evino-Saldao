@@ -1,0 +1,17 @@
+
+
+@media screen and (max-width: 992px) {
+
+    .controla-card{
+        display: grid !important;
+    }
+    .controla-responvidade{
+        margin-top: 10px;
+    }
+    
+}
+
+.controla-card{
+    display: flex ;
+}
+

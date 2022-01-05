@@ -1,0 +1,26 @@
+/* .p-fieldset-toggler.pi.pi-plus {
+    background-color: #3F51B5;
+    width: 45px;
+    height: 35px;
+}
+
+.p-fieldset-legend-text{
+    font-size: large;
+    color: #3F51B5;
+} */
+/* #pr_id_1_header > .p-fieldset-toggler.pi.pi-plus{
+
+    background-color: #3F51B5;
+} */
+
+/* .p-fieldset-toggler.pi.pi-plus::before{
+    width: 150px;
+} */
+.p-card-content{
+    width: 150px !important;
+}
+
+.p-card-content p{
+    width: 150px !important;
+    margin-left: 0px;
+}
